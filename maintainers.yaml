@@ -1,0 +1,22 @@
+# Maintainer roster for Kepler
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+#  Maintainers: Please connect your GitHub handle to your LFID on openprofile.dev to enable automatic access to CNCF resources. The system will use your primary email address for setup.
+maintainers:
+  - project_id: "kepler"
+    org: "sustainable-computing-io"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - vimalk78
+          - vprashar2929
+          - KaiyiLiu1234
+          - sthaha
+          - jiangphcn
+          - bradmccoydev
+          - SamYuan1990
+          - sunya-ch
+          - nikimanoledaki
+          - yellowhat
+          - laurall974
