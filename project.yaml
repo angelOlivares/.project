@@ -1,42 +1,38 @@
 # .project metadata for Kepler
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Set slack_channels
-# TODO: Add adopters list (ADOPTERS.md)
-# TODO: Add package_managers if distributed via registries
-
 schema_version: "1.0.0"
 slug: "kepler"
 name: "Kepler"
 description: "Kepler (Kubernetes-based Efficient Power Level Exporter) uses eBPF to probe energy related system stats and exports as Prometheus metrics."
 type: "project"
-project_lead: "vimalk78" # TODO: AUTO-DETECTED — please verify
-# TODO: Set CNCF Slack channel(s)
-# slack_channels:
-#   - name: "#kepler"
-#     primary: true
+project_lead: "vimalk78"
+slack_channels:
+  - name: "#kepler-project"
+    primary: true
 
 maturity_log:
   - phase: "sandbox"
     date: "2023-05-17T00:00:00Z"
-    issue: "https://github.com/cncf/sandbox/issues/19" # TODO: AUTO-DETECTED — please verify
+    issue: "https://github.com/cncf/sandbox/issues/19"
 
 repositories:
   - "https://github.com/sustainable-computing-io/kepler"
+  - "https://github.com/sustainable-computing-io/kepler-action"
+  - "https://github.com/sustainable-computing-io/kepler-operator"
+  - "https://github.com/sustainable-computing-io/kepler-doc"
+  - "https://github.com/sustainable-computing-io/local-dev-cluster"
+  - "https://github.com/sustainable-computing-io/kepler-metal-ci"
 
 website: "https://sustainable-computing.io/"
 
 artwork: "https://landscape.cncf.io/logos/kepler.svg"
 
-# TODO: Add ADOPTERS.md if your project tracks adopters
-# adopters:
-#   path: "https://github.com/sustainable-computing-io/kepler/blob/main/ADOPTERS.md"
+adopters:
+  path: "https://sustainable-computing.io/project/adopters"
 
-
-# TODO: Add package manager identifiers if your project is distributed via registries
-# package_managers:
-#   docker: "sustainable-computing-io/kepler"
-
+package_managers:
+  docker: "quay.io/sustainable_computing_io"
 
 security:
   policy:
@@ -54,8 +50,8 @@ legal:
   license:
     path: "https://github.com/sustainable-computing-io/kepler/blob/main/LICENSE"
   identity_type:
-    has_dco: true # AUTO-DETECTED — please verify
-    has_cla: false # AUTO-DETECTED — please verify
+    has_dco: true
+    has_cla: false
     dco_url:
       path: "https://developercertificate.org/"
 
